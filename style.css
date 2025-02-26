@@ -91,7 +91,7 @@ nav .fa{
         display: block;
     }
     .nav-links{
-        position: absolute;
+        position: fixed;
         background: #f44363;
         height: 100vh;
         width: 200px;
@@ -466,4 +466,5 @@ padding: 18px 0;
     margin-bottom: 17px;
     outline: none;
     border: 1px solid #ccc;
+    box-sizing: border-box;
 }

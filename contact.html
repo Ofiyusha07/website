@@ -21,11 +21,11 @@
             <div class="nav-links" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">ABOUT</a></li>
-                    <li><a href="">COURSE</a></li>
-                    <li><a href="">BLOG</a></li>
-                    <li><a href="">CONTACT</a></li>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html.html">ABOUT</a></li>
+                    <li><a href="course.html.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
                 </ul>
             </div>
             <i class="fa fa-bars" onclick="showMenu()" ></i>
@@ -58,17 +58,17 @@
             <div>
                 <i class="fa fa-envelope-o"></i>
                 <span>
-                    <h5> info@creatingwebsite.com</h5>
+                    <h5> info@web.com</h5>
                 <p> Email us you query</p>
                 </span>  
             </div>
         </div>
         <div class="contact-col">
-<form action="">
-    <input type="text" placeholder="Enter your name" required>
-    <input type="email" placeholder="Enter your email address" required>
-    <input type="text" placeholder="Enter your subject" required>
-    <textarea rows="8" placeholder="Message" required></textarea>
+<form action="form-handler.php" method="post">
+    <input type="text" name="name" placeholder="Enter your name" required>
+    <input type="email" name="email" placeholder="Enter your email address" required>
+    <input type="text" name="subject" placeholder="Enter your subject" required>
+    <textarea rows="8" name="message" placeholder="Message" required></textarea>
     <button type="submit" class="hero-btn red-btn">Send Message</button>
 </form>
 
